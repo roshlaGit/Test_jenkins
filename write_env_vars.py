@@ -4,7 +4,7 @@ import os
 env_vars = os.environ
 
 # Define the output file
-output_file = 'jenkins_env_variables.txt'
+output_file = 'jenkins_env_variables_git.txt'
 
 # Write the environment variables to the file
 with open(output_file, 'w') as f:
