@@ -4,4 +4,4 @@ class testme:
         self.MY_GLOBAL_KEY = MY_GLOBAL_KEY
     
     def concat(self):
-        return self.buildno.tostring() + self.MY_GLOBAL_KEY.tostring()
+        return self.buildno + self.MY_GLOBAL_KEY
